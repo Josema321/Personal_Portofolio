@@ -1,0 +1,20 @@
+@use '../../../styles/variables' as *;
+
+.footer {
+  margin-top: $space-7;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+  background-color: transparent; // sits on main background
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center; // center the text horizontally
+  padding: $space-6 0; // 2rem 0
+  color: $color-text-muted;
+}
+
+.copy {
+  margin: 0;
+  font-size: 0.875rem; // small text
+}
